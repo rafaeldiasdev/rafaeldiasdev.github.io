@@ -59,7 +59,7 @@ a:hover{
     margin-top: 200px;
     height:600px;
     background-color:#004c82;
-    background: url(../img/parallax3.png) 50% 0 fixed;
+    background: url(../img/parallax3.png) 50% 0 fixed no-repeat;
     position: relative;
 }
 /*css da capa*/
