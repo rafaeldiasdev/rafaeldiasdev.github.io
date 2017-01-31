@@ -1,0 +1,199 @@
+/*linha que marca os grids quando em desenvolvimento*/
+*{
+	/*border: 2px solid red !important;*/;
+}
+/*css da página no desktop*/
+body{
+    width: 100%;
+    background-color: #eaeaea;	
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+/* barra de navegação*/
+nav{
+	background-color: rgba(0, 0, 0, 0.73);
+	padding-top: 9px;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+		background-color: rgba(0, 0, 0, 0);
+}
+.navbar-right{
+    padding-right: 51px;
+}
+.navbar-brand{
+	margin-top: -4px;
+}
+a{
+	color: #ff6700;
+}
+a:hover{
+	color: #bac0c1;
+}
+.icon-bar{
+    background-color: darkorange;
+}
+/*efeito parallax*/
+.parallaxBar{
+    width: 100%;
+    margin-top: -51px;
+    height: 750px;
+    background-color: #004c82;
+    background: url(../img/parallax.png) 50% 0 fixed;
+    position: relative;
+
+}
+.parallaxBar1{
+    width: 100%;
+    height: 680px;
+    background-color: #004c82;
+    background: url(../img/par.png) 50% 0 fixed;
+    position: relative;
+}
+.parallaxBar2{
+    width: 100%;
+    margin-top: 200px;
+    height:600px;
+    background-color:#004c82;
+    background: url(../img/parallax3.png) 50% 0 fixed;
+    position: relative;
+}
+/*css da capa*/
+.logoCapa{
+    width: 100%;
+    margin-top: 130px;
+    margin-left: 17px;
+}   
+.logoCapa:hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+/* css do about */
+.foto{
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    max-width: 280px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.foto:hover{
+    -moz-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+    -webkit-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+    -o-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+    -ms-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+    transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+}
+h1{
+	margin: 0 auto;
+    margin-top: 10px;
+}
+.textoSobre{
+    font-size: 17px;
+}
+hr{
+    border-top: 1px solid #c5c5c5
+}
+/*css do habilidades*/
+.margem{
+    width: 100%;
+    padding-top: 80px;
+}
+.margin{
+    margin-top: 100px;
+}
+.hab2{
+    padding: 5px;
+}
+.hab:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.3s;
+}
+/* css do contato */
+.contato{
+    width: 100%;
+    height: 350px;
+}
+.contate{
+    margin-top: 122px;
+    color: currentColor;
+    text-shadow: 1px 1px 1px black;
+    text-align: -webkit-center;
+}
+.corpoContato{
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: -webkit-center;
+}
+.linkedin{
+    padding-top: 15px;
+}
+.facebook{
+    padding-top: 15px;
+}
+/* css patas dadas*/
+.pt{
+    width: 100%;
+}
+.titlePt{
+    color: currentColor;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 70px;
+    text-align: -webkit-center;
+}
+.corpoPt{
+    font-size: initial;
+    text-align: -webkit-center;
+}
+.pt{
+    margin-bottom: 10px;
+}
+/*css dos direitos*/
+.direitos{
+    width: 100%;
+    text-align: -webkit-center;
+}
+/* media queries para telas de 800px até 1000px */
+@media only screen and (min-width:800px) and (max-width:1000px) {
+  
+    .hab{
+        float: left;
+           }
+    .hab2{
+        float: right;
+    }       
+    .parallaxBar1{
+        height: 1200px;
+    }
+    .contato{
+        clear: both;
+    } 
+}
+/* media queries para telas de 600px até 799px */
+@media only screen and (min-width: 600px) and (max-width: 799px){
+    .parallaxBar1{
+        height: 1200px;
+    }
+}
+/* media queries para telas de 400px até 599px*/
+@media only screen and (min-width: 400px) and (max-width: 599px){
+    .parallaxBar1{
+        height: 870px;
+    }
+}
+    
+
+
