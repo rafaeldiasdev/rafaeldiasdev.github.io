@@ -23,6 +23,11 @@ nav{
 .navbar-brand{
 	margin-top: -4px;
 }
+#navbarCollapse.collapse.active {
+    display: block !important;
+}
+
+
 a{
 	color: #ff6700;
 }
