@@ -190,7 +190,7 @@ hr{
 /* media queries para telas de 600px até 799px */
 @media only screen and (min-width: 600px) and (max-width: 799px){
     .parallaxBar1{
-        height: 1200px;
+        height: 1350px;
     }
 }
 /* media queries para telas de 400px até 599px*/
