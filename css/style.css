@@ -35,7 +35,8 @@ a:hover{
 	color: #bac0c1;
 }
 .icon-bar{
-    background-color: darkorange;
+    background-color: #ff6700;
+    margin-top: -9px;
 }
 /*efeito parallax*/
 .parallaxBar{
