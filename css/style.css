@@ -193,12 +193,18 @@ hr{
     .parallaxBar1{
         height: 1350px;
     }
+    .parallaxBar2{
+        background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
+    }
 }
 /* media queries para telas de 400px até 599px*/
 @media only screen and (min-width: 400px) and (max-width: 599px){
     .parallaxBar1{
         height: 870px;
     }
+    .parallaxBar2{
+        background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
+    }	
 }
 /*media queries do iphone 6 */
 @media only screen and (max-width: 375px){
