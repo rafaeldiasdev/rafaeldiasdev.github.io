@@ -207,6 +207,13 @@ hr{
         background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
     }	
 }
+/* media queries parallax até 400px */
+@media only screen and (max-width: 400px){
+    .parallaxBar2{
+    background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
+    }
+}
+
 /*media queries do iphone 6 */
 @media only screen and (max-width: 375px){
     .parallaxBar1{
