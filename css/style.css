@@ -141,6 +141,7 @@ hr{
     font-size: 20px;
     text-shadow: 1px 1px 1px black;
     text-align: -webkit-center;
+    line-height: 26px;		
 }
 .linkedin{
     padding-top: 15px;
