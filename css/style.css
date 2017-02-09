@@ -149,14 +149,12 @@ hr{
 .contate{
     margin-top: 122px;
     color: currentColor;
-    text-shadow: 1px 1px 1px black;
     text-align: -webkit-center;
 }
 .corpoContato{
     width: 100%;
     margin: auto;
     font-size: 20px;
-    text-shadow: 1px 1px 1px black;
     text-align: -webkit-center;
 }
 .linkedin{
@@ -171,7 +169,6 @@ hr{
 }
 .titlePt{
     color: currentColor;
-    text-shadow: 1px 1px 1px black;
     margin-top: 70px;
     text-align: -webkit-center;
 }
