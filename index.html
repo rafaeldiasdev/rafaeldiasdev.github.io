@@ -2,8 +2,6 @@
 <html lang="BR">
 <head>
 <meta charset="utf-8">
-	<meta name=”description” content=”Portfolio do Desenvolvedor Rafael Dias de Porto Alegre”> 
-	<meta name=”robots” content=”index, follow”>
 	<title>Rafael Dias Web Developer</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width">
@@ -43,20 +41,27 @@
             </ul>
         </div>
     </nav>
-</header>
+ </header>
     <!--fim da barra de menu-->
     <!--insere o efeito parallax no home-->
-	<section class="section parallaxBar" data-speed="50" data-type="background">
+	<section class="section" data-speed="50" data-type="background">
 		<!--Inicia o container "HOME"-->
 		<div class="container-responsive"  id="HOME">
-			<div class="col-md-8 col-md-offset-2 col-md-offset-2">	
+		  	<div class="col-md-8 col-md-offset-2 col-md-offset-2">	
 				<img src="img/logocapa.png" class="hvr-forward logoCapa" alt="rafael dias webdeveloper">
 			</div>	
-		</div>
+		  	<div id="video-wrap" class="video-wrap">
+				<video preload="metadata" autoplay loop id="my-video" muted="muted">
+				    <source src="img/video.mp4" type="video/mp4">
+				    <source src="img/video.ogg" type="video/ogg">
+				</video>
+			</div>
+			
+	    </div>
 	</section>
 	<!--Fim da "HOME"-->
 	<!--Inicia Section "SOBRE"-->
-	<section class="section" id="SOBRE">
+	<section class="section about" id="SOBRE">
 		<div class="container-responsive" >
 			<div class="row wow zoomIn">
 				<!-- Insere minha foto-->
@@ -76,9 +81,7 @@
 				</div>
 			</div>	
 		</div>
-	</section>
-	<!-- insere hr's e texto-->
-	<section class="section">
+	
 		<div class="container-responsive">
 			<div class="row">
 				<div class="col-md-12">
@@ -86,8 +89,8 @@
 				</div>
 			</div>
 		</div>
-	</section>	
-	<section class="section">
+	
+	
 		<div class="container-responsive">
 			<div class="row wow zoomIn">
 				<div class="col-md-12 text-center">
@@ -97,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	
 	<section class="section">
 		<div class="container-responsive">
 			<div class="row">
@@ -117,7 +120,7 @@
 						<img src="img/dominio.png" class="hab hab2 img-responsive center-block" alt="domínio em html 5, css3, bootstrap e wordpress">
 					</div>
 					<div class="col-md-6 wow zoomIn">
-						<img src="img/Conhecimentos.png" class="hab hab2 img-responsive center-block" alt="conhecimentos em gimp, java, git, php, jquery, mysql, javascript e greensock">
+						<img src="img/conhecimentos.png" class="hab hab2 img-responsive center-block" alt="conhecimentos em gimp, java, git, php, jquery, mysql, javascript e greensock">
 					</div>		
 				</div>
 				<div class="row">
@@ -174,7 +177,7 @@
 	</section>
 	<!--Fim section "Contatos"-->
 	<!--insere parallax "cães"-->
-	<div class="parallaxBar2" id="parallaxBar2">
+	<div class="parallaxBar2 img-responsive" id="parallaxBar2">
 	</div>
 	<!--Section "Patas Dadas"-->
 	<section>
@@ -224,6 +227,7 @@
 <script src="js/wow.min.js"></script>
 <script src="js/portfolio.js"></script>
 <script src="js/parallax.js"></script>
+<script src="js/backgroundVideo.js"></script>
 <!--Inicia Wow-->
 <script>
 	new WOW().init();
