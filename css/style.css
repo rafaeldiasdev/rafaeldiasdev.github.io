@@ -1,7 +1,6 @@
 /*linha que marca os grids quando em desenvolvimento*/
 *{
-    margin:0;
-    padding: 0;
+    
 	/*border: 2px solid red !important;*/;
 }
 /*css da página no desktop*/
@@ -117,7 +116,7 @@ h1{
 	margin: 0 auto;
     margin-top: 10px;
 }
-.textoSobre{
+/*.textoSobre{
     font-size: 17px;
 }
 hr{
@@ -149,12 +148,14 @@ hr{
 .contate{
     margin-top: 122px;
     color: currentColor;
+    text-shadow: 1px 1px 1px black;
     text-align: -webkit-center;
 }
 .corpoContato{
     width: 100%;
     margin: auto;
     font-size: 20px;
+    text-shadow: 1px 1px 1px black;
     text-align: -webkit-center;
 }
 .linkedin{
@@ -169,6 +170,7 @@ hr{
 }
 .titlePt{
     color: currentColor;
+    text-shadow: 1px 1px 1px black;
     margin-top: 70px;
     text-align: -webkit-center;
 }
@@ -198,7 +200,11 @@ hr{
     }
     .contato{
         clear: both;
-    } 
+    }
+    .logoCapa{
+        width: 97%;
+        margin-top: 129px;
+    }
 }
 /* media queries para telas de 600px até 799px */
 @media only screen and (min-width: 600px) and (max-width: 799px){
@@ -207,6 +213,10 @@ hr{
     }
     .parallaxBar2{
         background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
+    }
+    .logoCapa{
+        width: 95%;
+        margin-top: 100px;
     }
 }
 /* media queries para telas de 400px até 599px*/
@@ -217,16 +227,31 @@ hr{
     .parallaxBar2{
     background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
     }
+    video{
+
+    }
+    .logoCapa{
+        width: 95%;
+        margin-top: 50px;
+    }
 }
 @media only screen and (max-width: 400px){
     .parallaxBar2{
     background: url(../img/parallaxmob.png) 50% 0 fixed no-repeat;
+    }
+     .logoCapa{
+        width: 94%;
+        margin-top: 59px;
     }
 }
 /*media queries do iphone 6 */
 @media only screen and (max-width: 375px){
     .parallaxBar1{
         height: 800px;
+    }
+     .logoCapa{
+        margin-top: 51px;
+    
     }
 } 
 
